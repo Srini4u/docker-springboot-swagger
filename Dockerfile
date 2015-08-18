@@ -2,10 +2,10 @@ FROM java:8
 
 MAINTAINER dharmi@gmail.com
 
-VOLUME /tmp
+# VOLUME /tmp
 
 #Copy a prebuilt java application to the container
-ADD springswagger.jar app.jar
+ADD target/springswagger-0.1.jar app.jar
 
 RUN bash -c 'touch /app.jar'
 
