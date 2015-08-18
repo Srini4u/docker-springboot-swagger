@@ -13,4 +13,4 @@ RUN bash -c 'touch /app.jar'
 EXPOSE 8080
 
 # bring the application up and running.
-ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app.jar"]
+ENTRYPOINT ["java","-jar","/app.jar"]
