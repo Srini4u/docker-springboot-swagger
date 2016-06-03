@@ -26,7 +26,7 @@ public class SwaggerConfig {
 				"News API",
 				"Sample app to demonstrate Spring boot + Swagger",
 				"http://noname.com",
-				"dharmi@gmail.com",
+				"seeni45@gmail.com",
 				"License",
 				"x"
 		);
