@@ -1,6 +1,6 @@
 FROM java:8
 
-MAINTAINER dharmi@gmail.com
+MAINTAINER seeni45@gmail.com
 
 # VOLUME /tmp
 
